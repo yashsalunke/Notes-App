@@ -1,4 +1,4 @@
-package com.codingwithjks.notepad.ui.ui
+package com.ysdigisolution.notepad.ui.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -13,11 +13,11 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.codingwithjks.notepad.R
-import com.codingwithjks.notepad.ui.Adapter.NoteAdapter
-import com.codingwithjks.notepad.ui.Listener.Listener
-import com.codingwithjks.notepad.ui.Model.Note
-import com.codingwithjks.notepad.ui.ViewModel.NoteViewModel
+import com.ysdigisolution.notepad.R
+import com.ysdigisolution.notepad.ui.Adapter.NoteAdapter
+import com.ysdigisolution.notepad.ui.Listener.Listener
+import com.ysdigisolution.notepad.ui.Model.Note
+import com.ysdigisolution.notepad.ui.ViewModel.NoteViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),

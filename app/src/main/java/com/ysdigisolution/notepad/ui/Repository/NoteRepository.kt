@@ -1,9 +1,9 @@
-package com.codingwithjks.notepad.ui.Repository
+package com.ysdigisolution.notepad.ui.Repository
 
 import android.content.Context
 import androidx.lifecycle.LiveData
-import com.codingwithjks.notepad.ui.Database.NoteDatabase
-import com.codingwithjks.notepad.ui.Model.Note
+import com.ysdigisolution.notepad.ui.Database.NoteDatabase
+import com.ysdigisolution.notepad.ui.Model.Note
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch

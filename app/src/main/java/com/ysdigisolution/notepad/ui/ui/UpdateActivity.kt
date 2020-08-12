@@ -1,4 +1,4 @@
-package com.codingwithjks.notepad.ui.ui
+package com.ysdigisolution.notepad.ui.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,9 +7,9 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 
-import com.codingwithjks.notepad.R
-import com.codingwithjks.notepad.ui.Model.Note
-import com.codingwithjks.notepad.ui.ViewModel.NoteViewModel
+import com.ysdigisolution.notepad.R
+import com.ysdigisolution.notepad.ui.Model.Note
+import com.ysdigisolution.notepad.ui.ViewModel.NoteViewModel
 
 import kotlinx.android.synthetic.main.activity_update.*
 import java.util.*

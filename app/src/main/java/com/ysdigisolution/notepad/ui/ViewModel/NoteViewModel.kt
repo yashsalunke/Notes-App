@@ -1,11 +1,10 @@
-package com.codingwithjks.notepad.ui.ViewModel
+package com.ysdigisolution.notepad.ui.ViewModel
 
 import android.content.Context
-import androidx.annotation.WorkerThread
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import com.codingwithjks.notepad.ui.Model.Note
-import com.codingwithjks.notepad.ui.Repository.NoteRepository
+import com.ysdigisolution.notepad.ui.Model.Note
+import com.ysdigisolution.notepad.ui.Repository.NoteRepository
 
 class NoteViewModel : ViewModel(){
 

@@ -1,11 +1,11 @@
-package com.codingwithjks.notepad.ui.Database
+package com.ysdigisolution.notepad.ui.Database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.codingwithjks.notepad.ui.Dao.NoteDao
-import com.codingwithjks.notepad.ui.Model.Note
+import com.ysdigisolution.notepad.ui.Dao.NoteDao
+import com.ysdigisolution.notepad.ui.Model.Note
 
 @Database(entities = [Note::class],version = 2,exportSchema = false)
 abstract class NoteDatabase : RoomDatabase()

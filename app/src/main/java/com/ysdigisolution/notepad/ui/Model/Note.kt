@@ -1,7 +1,6 @@
-package com.codingwithjks.notepad.ui.Model
+package com.ysdigisolution.notepad.ui.Model
 
 import androidx.room.Entity
-import androidx.room.Index
 import androidx.room.PrimaryKey
 import java.io.Serializable
 

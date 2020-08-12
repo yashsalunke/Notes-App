@@ -1,4 +1,4 @@
-package com.codingwithjks.notepad
+package com.ysdigisolution.notepad
 
 import org.junit.Test
 

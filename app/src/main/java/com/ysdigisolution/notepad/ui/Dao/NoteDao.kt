@@ -1,8 +1,8 @@
-package com.codingwithjks.notepad.ui.Dao
+package com.ysdigisolution.notepad.ui.Dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.codingwithjks.notepad.ui.Model.Note
+import com.ysdigisolution.notepad.ui.Model.Note
 
 @Dao
 interface NoteDao {

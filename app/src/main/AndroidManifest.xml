@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codingwithjks.notepad">
+    package="com.ysdigisolution.notepad">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.ui.UpdateActivity"></activity>
-        <activity android:name=".ui.ui.AnotherActivity" />
-        <activity android:name=".ui.ui.MainActivity">
+        <activity android:name="com.ysdigisolution.notepad.ui.ui.UpdateActivity"></activity>
+        <activity android:name="com.ysdigisolution.notepad.ui.ui.AnotherActivity" />
+        <activity android:name="com.ysdigisolution.notepad.ui.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

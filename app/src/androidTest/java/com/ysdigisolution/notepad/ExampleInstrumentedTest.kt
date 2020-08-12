@@ -1,4 +1,4 @@
-package com.codingwithjks.notepad
+package com.ysdigisolution.notepad
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

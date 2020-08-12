@@ -1,6 +1,5 @@
-package com.codingwithjks.notepad.ui.ui
+package com.ysdigisolution.notepad.ui.ui
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,9 +8,9 @@ import android.text.TextWatcher
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
-import com.codingwithjks.notepad.R
-import com.codingwithjks.notepad.ui.Model.Note
-import com.codingwithjks.notepad.ui.ViewModel.NoteViewModel
+import com.ysdigisolution.notepad.R
+import com.ysdigisolution.notepad.ui.Model.Note
+import com.ysdigisolution.notepad.ui.ViewModel.NoteViewModel
 import kotlinx.android.synthetic.main.activity_another.*
 import java.util.*
 import kotlin.properties.Delegates
