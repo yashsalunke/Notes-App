@@ -1,6 +1,7 @@
 package com.ysdigisolution.notepad.ui.ui
 
 import android.content.Intent
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
@@ -8,6 +9,7 @@ import android.text.TextWatcher
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import com.ysdigisolution.notepad.R
 import com.ysdigisolution.notepad.ui.Model.Note
 import com.ysdigisolution.notepad.ui.ViewModel.NoteViewModel
@@ -22,12 +24,13 @@ class AnotherActivity : AppCompatActivity() {
     private lateinit var date:Date
     private var getCharacter by Delegates.notNull<Long>()
     private lateinit var getDate:String
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_another)
         setSupportActionBar(toolbar1)
         noteViewModel= NoteViewModel()
-        val upArrow=resources.getDrawable(R.drawable.arrow)
+        val upArrow=resources.getDrawable(R.drawable.arrow,theme)
 
         getDate()
         supportActionBar?.apply {

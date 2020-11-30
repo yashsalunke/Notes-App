@@ -87,8 +87,8 @@ class MainActivity : AppCompatActivity(),
     }
  private fun getItemsFromDB(data:String)
  {
-      var searchText=data
-       searchText="%$data%"
+     var searchText: String
+     searchText="%$data%"
        noteViewModel.search(this,searchText)?.observe(this, Observer {
            Log.d("main", "$it")
            noteAdapter.setData(it as ArrayList<Note>)
@@ -110,7 +110,7 @@ class MainActivity : AppCompatActivity(),
         intent.putExtra("note",noteList[position])
         startActivity(intent)
     }
-     val simpleCallback= object : ItemTouchHelper.SimpleCallback(0,ItemTouchHelper.LEFT or ItemTouchHelper.RIGHT) {
+     private val simpleCallback= object : ItemTouchHelper.SimpleCallback(0,ItemTouchHelper.LEFT or ItemTouchHelper.RIGHT) {
          override fun onMove(
              recyclerView: RecyclerView,
              viewHolder: RecyclerView.ViewHolder,
